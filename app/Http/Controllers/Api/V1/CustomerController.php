@@ -19,7 +19,7 @@ class CustomerController extends Controller
      */
     public function index()
     {
-        return new CustomerCollection(Customer::all());
+        return new CustomerCollection(Customer::paginate());
     }
 
     /**
@@ -40,6 +40,9 @@ class CustomerController extends Controller
 
     /**
      * Display the specified resource.
+     * 
+     * @param Customer $customer
+     * @return \Illuminate\Http\Resources\Json\CustomerResource
      */
     public function show(Customer $customer)
     {
