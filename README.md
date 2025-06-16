@@ -8,7 +8,7 @@ A RESTful API built using the [Laravel](https://laravel.com/) framework.
 
 -   Laravel 12
 -   RESTful API structure
--   Authentication with Sanctum or Passport
+-   Authentication with Sanctum
 -   API Resource responses
 -   Request validation
 -   Environment-based configuration
@@ -20,7 +20,7 @@ A RESTful API built using the [Laravel](https://laravel.com/) framework.
 
 -   PHP >= 8.1
 -   Composer
--   MySQL / PostgreSQL / SQLite
+-   MySQL
 -   Node.js and npm (optional for frontend assets)
 -   Laravel CLI
 
