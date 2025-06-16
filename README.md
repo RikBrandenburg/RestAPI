@@ -6,7 +6,7 @@ A RESTful API built using the [Laravel](https://laravel.com/) framework.
 
 ## Features
 
--   Laravel 10+
+-   Laravel 12
 -   RESTful API structure
 -   Authentication with Sanctum or Passport
 -   API Resource responses
